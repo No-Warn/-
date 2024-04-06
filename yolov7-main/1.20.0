@@ -1,0 +1,32 @@
+Channels:
+ - defaults
+ - nvidia
+ - pytorch
+Platform: win-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: D:\anaconda\envs\d0l
+
+  added / updated specs:
+    - numpy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    numpy-1.26.4               |  py312hfd52020_0          11 KB  defaults
+    numpy-base-1.26.4          |  py312h4dde369_0         6.6 MB  defaults
+    ------------------------------------------------------------
+                                           Total:         6.6 MB
+
+The following packages will be UPDATED:
+
+  numpy                              1.26.3-py312hfd52020_0 --> 1.26.4-py312hfd52020_0 
+  numpy-base                         1.26.3-py312h4dde369_0 --> 1.26.4-py312h4dde369_0 
+
+
+Proceed ([y]/n)? 终止批处理操作吗(Y/N)? 
