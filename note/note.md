@@ -22,3 +22,4 @@ pip install torch==12.3+cu12.3 -f https://download.pytorch.org/whl/torch_stable.
 7：train.py文件中534行的bach-size根据自己的显存大小设置，我设置的是2
 8：train.py文件中的img-size可以根据自己的显存大小来修改
 9：在train.py文件中的权重文件使用的路径最好为绝对路径
+
