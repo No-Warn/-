@@ -23,3 +23,6 @@ pip install torch==12.3+cu12.3 -f https://download.pytorch.org/whl/torch_stable.
 8：train.py文件中的img-size可以根据自己的显存大小来修改
 9：在train.py文件中的权重文件使用的路径最好为绝对路径
 
+需要解决的问题：
+在训练时训练速度过慢（在尝试训练数据集的过程中大概一个小时才跑了9张图片）
+
