@@ -26,3 +26,16 @@ pip install torch==12.3+cu12.3 -f https://download.pytorch.org/whl/torch_stable.
 需要解决的问题：
 在训练时训练速度过慢（在尝试训练数据集的过程中大概一个小时才跑了9张图片）
 
+在训练完成之后，可以运行detect.py文件来进行预测，预测结果的输出形式可以进行修改
+
+
+# 对train.py文件中各参数的解释
+train,py文件用来训练数据集
+其中
+
+
+# wandb中实验结果的各项参数表示的含义
+
+
+
+# 修改输出形式,将输出结果修改为txt文件格式，方便后续
