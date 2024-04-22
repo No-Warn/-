@@ -130,6 +130,7 @@ def detect(save_img=False):
 
             # Print time (inference + NMS)
             print(f'{s}Done. ({(1E3 * (t2 - t1)):.1f}ms) Inference, ({(1E3 * (t3 - t2)):.1f}ms) NMS')
+            #实现了将识别结果输出的
             tupian_path = 'result.txt'
             with open(tupian_path, 'a') as f:
                 p = str(label)
